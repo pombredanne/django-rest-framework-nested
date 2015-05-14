@@ -1,5 +1,5 @@
 # django-rest-framework-nested
-Work in progress for nested support for django-rest-framework
+Work in progress for nested support for django-rest-framework. Based on alanjds/drf-nested-routers, made to be generic.
 
 
 Installation
@@ -8,7 +8,7 @@ Installation
 ```pip install django-rest-framework-nested```
 
 
-Quickstart
+Example Quickstart
 ----------
 
 #### settings.py
