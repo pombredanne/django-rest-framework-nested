@@ -5,7 +5,7 @@ Work in progress for nested support for django-rest-framework
 Installation
 ------------
 
-```pip install ```
+```pip install django-rest-framework-nested```
 
 
 Quickstart
