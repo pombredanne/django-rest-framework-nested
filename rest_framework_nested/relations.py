@@ -5,6 +5,8 @@ from django.core.exceptions import ImproperlyConfigured
 
 
 class NestedHyperlinkedRelatedField(rest_framework.relations.HyperlinkedRelatedField):
+    read_only = False
+    lookup_field = "pk"
     parent_lookup_field = "parent__pk"
 
     def __init__(self, view_name=None, **kwargs):

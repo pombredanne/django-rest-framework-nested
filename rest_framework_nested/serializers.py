@@ -1,9 +1,9 @@
+from rest_framework_nested import relations
+
 __author__ = 'jrparks'
 from django.utils.translation import ugettext_lazy as _
 from django.db import models as db_models
 import rest_framework.serializers
-
-import relations
 
 
 class NestedHyperlinkedModelSerializer(rest_framework.serializers.HyperlinkedModelSerializer):
